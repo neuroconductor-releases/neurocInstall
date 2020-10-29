@@ -15,3 +15,6 @@ makefile
 ^pkgdown$
 ^cran-comments\.md$
 ^CRAN-RELEASE$
+^DESCRIPTION\.bak$
+^\./\.travis\.yml\.bak$
+^\./appveyor\.yml\.bak$

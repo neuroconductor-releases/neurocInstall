@@ -4,11 +4,10 @@ Title: 'Neuroconductor' Installer
 Version: 0.12.1
 Author: John Muschelli <muschellij2@gmail.com>
 Maintainer: John Muschelli <muschellij2@gmail.com>
-Description: Installs 'Neuroconductor' packages from the release repository <https://neuroconductor.org/releases/> or from 'GitHub'.
-Imports:
-    devtools (>= 1.12.0.9000),
-    utils,
-    methods
+Description: Installs 'Neuroconductor' packages from the release
+        repository <https://neuroconductor.org/releases/> or from
+        'GitHub'.
+Imports: devtools (>= 1.12.0.9000), utils, methods
 License: GPL-2
 Encoding: UTF-8
 LazyData: true
@@ -16,6 +15,10 @@ Suggests:
     testthat,
     knitr,
     rmarkdown,
-    httr
+    httr,
+    covr
 VignetteBuilder: knitr
 RoxygenNote: 7.1.0
+Additional_repositories: https://neuroconductor.org/releases/2020/10/
+Repository: Neuroconductor-Releases
+biocViews: 
